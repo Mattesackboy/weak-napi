@@ -30,6 +30,7 @@
     "prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))"
   },
   "dependencies": {
+    "events": "^3.2.0",
     "node-addon-api": "^3.0.0",
     "node-gyp-build": "^4.2.1",
     "setimmediate-napi": "^1.0.3"
